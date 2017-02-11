@@ -46,12 +46,7 @@ void translateTIME(){
     PM = false;
     twelve_hours = hours;
   }  
-  if (hours > 24){
-    hours = 0;
-  }
-  if (minutes>60){
-    minutes = 0;
-  }
+
 
     ///populate VFDhour[] from twelve-hours var
   if (twelve_hours == 10){
